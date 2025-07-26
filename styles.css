@@ -1,0 +1,128 @@
+* {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+.Titulo {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Titulo h1{
+    font-size: 1.5rem;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Para post 1 */
+.post-1 {
+    background-color: white;
+    width: 500px;
+    height: 570px;
+    margin-top: 6%;
+    margin-bottom: 10%;
+    border-radius: 3px;
+}
+.arriba{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+.name{
+    font-weight: 700;
+}
+.date{
+    color: rgb(180, 178, 178);
+}
+
+.imagen{
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 80%;
+}
+.comment{
+    padding: 14px;
+}
+
+/* Para post 2 */
+.post-2 {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 3px;
+    margin-bottom: 10%;
+}
+.arriba-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.imagen-2{
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 80%;
+}
+.comment-2{
+    padding: 15px;
+}
+
+/* Para post 3 */
+.post-3{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 3px;
+    margin-bottom: 10%;
+}
+.arriba-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.imagen-3{
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 80%;
+}
+.comment-3{
+    padding: 15px;
+}
+
+/* Para post 4 */
+.post-4{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 3px;
+}
+.arriba-4{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.imagen-4{
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 80%;
+}
+.comment-4{
+    padding: 15px;
+}
